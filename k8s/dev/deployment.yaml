@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devflow-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devflow
+  template:
+    metadata:
+      labels:
+        app: devflow
+    spec:
+      containers:
+      - name: devflow
+        image: devflow:latest
+        imagePullPolicy: Never

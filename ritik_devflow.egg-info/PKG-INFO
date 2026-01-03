@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: ritik-devflow
+Version: 1.0.0
+Summary: DevFlow CLI – Internal DevOps Automation Tool
+Author: Ritik Kumar
+Requires-Python: >=3.9
+Requires-Dist: click
+Requires-Dist: pyyaml
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

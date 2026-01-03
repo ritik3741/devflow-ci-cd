@@ -1,0 +1,18 @@
+app:
+  name: devflow
+
+docker:
+  image: devflow
+  dockerfile: docker/Dockerfile
+
+kubernetes:
+  deployment_name: devflow-deployment
+  service_name: devflow-service
+
+environments:
+  dev:
+    image: devflow:latest
+    deployment_path: k8s/dev
+  prod:
+    image: ritik3741/devflow:latest
+    deployment_path: k8s/prod
