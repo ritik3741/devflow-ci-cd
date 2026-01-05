@@ -1,13 +1,9 @@
-Got it 👍
-Below is the **FULL README.md in pure copy-paste mode**.
-Just **copy everything inside the box** and paste it into `README.md`.
 
 ---
-
 ```md
 # 🚀 DevFlow – CI/CD, Kubernetes & DevOps Automation Platform
 
-DevFlow is an **end-to-end DevOps automation platform** that demonstrates real-world **CI/CD pipelines, Docker, Kubernetes, and internal developer tooling**.
+DevFlow is an end-to-end DevOps automation platform that demonstrates real-world CI/CD pipelines, Docker, Kubernetes, and internal developer tooling.
 
 It includes a **published, installable CLI** that automates deployment, rollback, and operational workflows using a **configuration-driven design**.
 
