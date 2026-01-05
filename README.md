@@ -223,5 +223,4 @@ devflow --help
 
 **Ritik Kumar**
 DevOps | Platform Engineering | Cloud Enthusiast
-Just say **next** 🚀
 ```
